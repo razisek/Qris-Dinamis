@@ -1,0 +1,31 @@
+{
+  "name": "Qris-Dinamis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "qris.js",
+  "dependencies": {
+    "jimp": "^0.16.1",
+    "qrcode": "^1.4.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/razisek/Qris-Dinamis.git"
+  },
+  "keywords": [
+    "qris",
+    "qris-parser",
+    "dinamis",
+    "qris-dinamis",
+    "payment"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/razisek/Qris-Dinamis/issues"
+  },
+  "homepage": "https://github.com/razisek/Qris-Dinamis#readme"
+}
