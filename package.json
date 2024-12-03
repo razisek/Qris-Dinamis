@@ -1,11 +1,17 @@
 {
-  "name": "Qris-Dinamis",
-  "version": "1.0.0",
-  "description": "",
-  "main": "qris.js",
+  "name": "qris-dinamis",
+  "version": "1.0.1",
+  "description": "Make static QRIS to dynamic QRIS",
+  "main": "index.js",
   "dependencies": {
     "jimp": "^0.16.1",
     "qrcode": "^1.4.4"
+  },
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.js"
+    }
   },
   "devDependencies": {},
   "scripts": {
@@ -22,8 +28,8 @@
     "qris-dinamis",
     "payment"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "Rachma Azis",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/razisek/Qris-Dinamis/issues"
   },
